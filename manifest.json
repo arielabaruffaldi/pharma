@@ -1,6 +1,6 @@
 {
-  "vendor": "vtexarg",
-  "name": "b2b-store-theme",
+  "vendor": "medicamentospocb2b",
+  "name": "theme",
   "version": "2.11.1",
   "builders": {
     "styles": "2.x",
