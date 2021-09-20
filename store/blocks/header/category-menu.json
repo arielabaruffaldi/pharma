@@ -1,0 +1,88 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-computers",
+      "menu-item#category-machines",
+      "menu-item#category-personalized",
+      "menu-item#category-tools"
+    ]
+  },
+  "menu-item#category-computers": {
+    "props": {
+      "id": "menu-item-category-computers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos/antidepresivos",
+        "noFollow": false,
+        "tagTitle": "Antidepresivos",
+        "text": "Antidepresivos"
+      }
+    }
+  },
+  "menu-item#category-machines": {
+    "props": {
+      "id": "menu-item-category-machines",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos/psicotropicos",
+        "noFollow": false,
+        "tagTitle": "Psicotrópicos",
+        "text": "Psicotrópicos"
+      }
+    }
+  },
+  "menu-item#category-personalized": {
+    "props": {
+      "id": "menu-item-category-personalized",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos/sedantes",
+        "noFollow": false,
+        "tagTitle": "Sedantes",
+        "text": "Sedantes"
+      }
+    }
+  },
+  "menu-item#category-tools": {
+    "props": {
+      "id": "menu-item-category-tools",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos/venta-libre",
+        "noFollow": false,
+        "tagTitle": "Venta Libre",
+        "text": "Venta Libre"
+      }
+    }
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  }
+}
